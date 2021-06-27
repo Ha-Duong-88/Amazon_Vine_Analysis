@@ -2,7 +2,11 @@
 
 # Project Overview
 
-1) Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-2) Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-3) Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-4) Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, provide a summary interpretation of the findings.
+Analyze Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. 
+
+## Scope
+This project accessed approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. The scope involved using PySpark, perform  the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin, and PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset.
+
+Technologies used for this project were:  Amazon Relational Database (RDS), PySpark, Pandas, SQL, Postgres, pgAdmin, Google Colab
+
+# Analysis
