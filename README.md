@@ -13,14 +13,12 @@ Technologies used for this project were:  Amazon Relational Database (RDS), PySp
 Based on the analysis of the Amazon Watch Reviews data, the following results were observed:
 
   * There are a total 94 paid Vine reviews and 40471 unpaid Vine reviews.
-  * There were a total of 48 paid and 15663 of unpaid 5-Stars reviews.
-  * The percentage of 
+  * There were a total of 48 5-Star paid and 15663 of unpaid 5-Star reviews.
+  * The percent of five-Star reviews of the total paid Vine reviews is 51% and unpaid vine reviews is 38%
 
-The percent of five-star reviews of the total paid vine reviews is: 51.06382978723404 %
+There may be positivity bias for the 5-star reviews given that five-star paid Vine reviews percent is 51% compared to the unpaid Vine reviews. However, more data and analysis would be needed to test and validate this.
 
-
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+An additional analysis that could be performed is to compare the 1-star reviews for any negativity bias and compare them to the 5-star paid reviews. Instead of filtering by 1 instead of 5 in this case. If the 1-Star rating for paid Vine reviews relative to the total Vine (paid and unpaid) reviews is low, there may be a positivity bias.
 
 Below is an image of the Spark code:
 
