@@ -13,7 +13,10 @@ Technologies used for this project were:  Amazon Relational Database (RDS), PySp
 Based on the analysis of the Amazon Watch Reviews data, the following results were observed:
 
   * There are a total 94 paid Vine reviews and 40471 unpaid Vine reviews.
-  * There were a total of 48 paid and 15663 of unpaid 5-Stars
+  * There were a total of 48 paid and 15663 of unpaid 5-Stars reviews.
+  * The percentage of 
+
+The percent of five-star reviews of the total paid vine reviews is: 51.06382978723404 %
 
 
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
