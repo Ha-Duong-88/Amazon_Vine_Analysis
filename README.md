@@ -2,19 +2,15 @@
 
 # Project Overview
 
-Analyze Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. 
+Analyze Amazon reviews are written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. This project accessed over 50 Amazon review datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. 
 
 ## Scope
-This project accessed approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. The scope involved using PySpark, perform  the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin, and PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 
-Technologies used for this project were:  Amazon Relational Database (RDS), PySpark, Pandas, SQL, Postgres, pgAdmin, Google Colab
+This analysis specifically focused on the reviews of watches. The scope involved creating an Amazon Relational Database Service (Amazon RDS) and S3, using PySpark and Pandas DataFrame in Google Colaboratory Notebook to perform the ETL process to extract the dataset, transform the data, connect to the AWS RDS instance, and load the transformed data into pgAdmin, and determine if there is any bias toward favorable reviews from Vine members for Vine and non-Vine ratings and 5-Star Vine and non-Vine ratings.
+
+Technologies used for this project were:  Amazon RDS and S3, PySpark, Pandas, SQL, Postgres, pgAdmin, and Google Colaboratory
 
 # Analysis
-
-
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Based on the analysis of the Amazon Watch Reviews data, the following results were observed:
 
 ## Total Vine versus Non-Vine Reviews
 
