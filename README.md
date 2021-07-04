@@ -37,18 +37,30 @@ Based on the analysis of the Amazon Watch Reviews data, the following results we
    
    total_5star_vine_reviews.png![total_5star_vine_reviews](https://user-images.githubusercontent.com/80140082/124390864-5f807980-dca2-11eb-8701-8e36e77e5eb2.png)
 
-
   •	Total number of 5-Star non-Vine (unpaid) reviews is 15663
   
   total_5star_nonvine_reviews.png![total_5star_nonvine_reviews](https://user-images.githubusercontent.com/80140082/124390935-c56d0100-dca2-11eb-853d-a1b90d65cb7e.png)
-
   
-  * The percent of five-Star reviews of the total paid Vine reviews is 51% and unpaid vine reviews is 38%
 
-There may be positivity bias for the 5-star reviews given that five-star paid Vine reviews percent is 51% compared to the unpaid Vine reviews. However, more data and analysis would be needed to test and validate this.
+## Total percent of 5-Star for Vine and 5-Star for non-Vine reviews
 
-An additional analysis that could be performed is to compare the 1-star reviews for any negativity bias and compare them to the 5-star paid reviews. Instead of filtering by 1 instead of 5 in this case. If the 1-Star rating for paid Vine reviews relative to the total Vine (paid and unpaid) reviews is low, there may be a positivity bias.
+  •	The percent of 5-Star Vine (paid) reviews is 51.06%
+  
+  percent_5star_vine_reviews.png![percent_5star_vine_reviews](https://user-images.githubusercontent.com/80140082/124391172-32cd6180-dca4-11eb-930e-be8832dfef02.png)
 
-Below is an image of the Spark code:
+  •	The percent of 5-Star non-Vine (unpaid) reviews is 38.7%
+  
+  percent_5star_nonvine_reviews.png![percent_5star_nonvine_reviews](https://user-images.githubusercontent.com/80140082/124391503-c0f61780-dca5-11eb-9c4a-42f401a057de.png)
 
-![vine_review_analytics](https://user-images.githubusercontent.com/80140082/124366474-ff87c580-dc04-11eb-8e6e-bda2b93af3a8.png)
+
+## Summary
+
+This analysis of the Amazon Vine and non-Vine reviews for watches, there is a potential for some positivity bias. The percentage of 5-Star Vine (paid) reviews is 51.05% compared to the 5-Star non-Vine (unpaid) reviews of 38.7%. Given this, there is a 50/50% probability that there could be some positivity bias in the 5-Star Vine reviews. However, additional data analysis would be needed to test and validate this hypothesis.
+
+Paid Vine reviews could influence the positivity of reviews especially if the perentage is significantly high (i.e., significantly greater than 50%). While paid Vine reviews could generate positive reviews, it may not result in a high percentage of 5-Star reviews.
+
+Additional analysis could be performed to determine to if there is any positivity bias for Vine reviews by comparing the 1-Star Vine reviews to the 5-Star Vine reviews. If the 1-Star rating for paid Vine reviews relative to the total Vine (paid and unpaid) reviews is low, there may be a positivity bias. Conversely, if the 1-Star rating is high, it is unlikely that there is positivity bias in the 5-Star ratings.
+
+Another potential test is to do some regression testing on the Vine and non-Vine reviews
+
+
