@@ -10,10 +10,39 @@ This project accessed approximately 50 datasets. Each one contains reviews of a 
 Technologies used for this project were:  Amazon Relational Database (RDS), PySpark, Pandas, SQL, Postgres, pgAdmin, Google Colab
 
 # Analysis
+
+
+How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 Based on the analysis of the Amazon Watch Reviews data, the following results were observed:
 
-  * There are a total 94 paid Vine reviews and 40471 unpaid Vine reviews.
-  * There were a total of 48 5-Star paid and 15663 of unpaid 5-Star reviews.
+## Total Vine versus Non-Vine Reviews
+  
+  •	Total number of revies is 40565
+
+  total_number_reviews.png![total_number_reviews](https://user-images.githubusercontent.com/80140082/124389996-8472ed80-dc9e-11eb-9a98-d30e3ef194b2.png)
+
+  •	Total number of Vine reviews is 94
+  
+  total_count_paid_reviews.png![total_count_paid_reviews](https://user-images.githubusercontent.com/80140082/124390419-69a17880-dca0-11eb-9342-7d77c262bf4a.png)
+
+  •	Total number of non-Vine reviews is 40471
+
+  total_count_unpaid_reviews.png![total_count_unpaid_reviews](https://user-images.githubusercontent.com/80140082/124390958-f77e6300-dca2-11eb-8ba7-3235a5ac8562.png)
+
+
+## Total 5-Star Vine Reviews versus 5-Start Non-Vine Reviews 
+  
+   •	Total number of 5-Star Vine (paid) reviews is 48
+   
+   total_5star_vine_reviews.png![total_5star_vine_reviews](https://user-images.githubusercontent.com/80140082/124390864-5f807980-dca2-11eb-8701-8e36e77e5eb2.png)
+
+
+  •	Total number of 5-Star non-Vine (unpaid) reviews is 15663
+  
+  total_5star_nonvine_reviews.png![total_5star_nonvine_reviews](https://user-images.githubusercontent.com/80140082/124390935-c56d0100-dca2-11eb-853d-a1b90d65cb7e.png)
+
+  
   * The percent of five-Star reviews of the total paid Vine reviews is 51% and unpaid vine reviews is 38%
 
 There may be positivity bias for the 5-star reviews given that five-star paid Vine reviews percent is 51% compared to the unpaid Vine reviews. However, more data and analysis would be needed to test and validate this.
