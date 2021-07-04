@@ -6,7 +6,9 @@ Analyze Amazon reviews are written by members of the paid Amazon Vine program. T
 
 ## Scope
 
-This analysis specifically focused on the reviews of watches. The scope involved creating an Amazon Relational Database Service (Amazon RDS) and S3, using PySpark and Pandas DataFrame in Google Colaboratory Notebook to perform the ETL process to extract the dataset, transform the data, connect to the AWS RDS instance, and load the transformed data into pgAdmin, and determine if there is any bias toward favorable reviews from Vine members for Vine and non-Vine ratings and 5-Star Vine and non-Vine ratings.
+The analysis was to determine if there is any bias toward favorable reviews from Vine members for Vine and non-Vine ratings and 5-Star Vine and non-Vine ratings.
+
+This analysis specifically focused on the reviews of watches. The scope involved creating an Amazon Relational Database Service (Amazon RDS) and S3, using PySpark and Pandas DataFrame in Google Colaboratory Notebook to perform the ETL process to extract the dataset, transform the data, connect to the AWS RDS instance, and load the transformed data into pgAdmin. 
 
 Technologies used for this project were:  Amazon RDS and S3, PySpark, Pandas, SQL, Postgres, pgAdmin, and Google Colaboratory
 
